@@ -98,11 +98,11 @@
   margin-top: 20px;
   margin-bottom: 30px;
   &__input:focus + &__wrapper > &__item {
-    background-image: url("../images/studio/checkbox-off.svg");
+    background-image: url(../images/studio/checkbox-off.svg);
   }
   &__input:checked + &__wrapper > &__item,
   &__input:focus:checked + &__wrapper > &__item {
-    background-image: url("../images/studio/checkbox-on.svg");
+    background-image: url(../images/studio/checkbox-on.svg);
   }
   &__label {
     text-align: center;
