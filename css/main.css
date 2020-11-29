@@ -800,10 +800,6 @@ p {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.sign-up__title {
-  margin-left: 93px;
-}
-
 .sign-up__svg {
   position: absolute;
   top: 0;
@@ -825,7 +821,7 @@ p {
 .sign-up__title {
   padding-top: 72px;
   padding-bottom: 20px;
-  margin-left: 70px;
+  margin-left: 93px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 700;
