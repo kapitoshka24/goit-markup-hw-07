@@ -75,7 +75,7 @@
     outline: none;
   }
 
-  &:focus + .svg-img {
+  &:focus + .form__svg {
     fill: getColor("blue");
   }
 
@@ -98,11 +98,11 @@
   margin-top: 20px;
   margin-bottom: 30px;
   &__input:focus + &__wrapper > &__item {
-    background-image: url(/images/studio/checkbox-off.svg);
+    background-image: url("/images/studio/checkbox-off.svg");
   }
   &__input:checked + &__wrapper > &__item,
   &__input:focus:checked + &__wrapper > &__item {
-    background-image: url(/images/studio/checkbox-on.svg);
+    background-image: url("/images/studio/checkbox-on.svg");
   }
   &__label {
     text-align: center;
@@ -136,7 +136,7 @@
     left: 0;
     top: 0;
     transform: translateY(25%);
-    background-image: url(../../images/studio/checkbox-off.svg);
+    background-image: url(/images/studio/checkbox-off.svg);
   }
 }
 .contract {

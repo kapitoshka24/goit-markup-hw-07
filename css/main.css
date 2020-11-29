@@ -179,8 +179,8 @@ p {
   padding-top: 200px;
   padding-bottom: 200px;
   height: 600px;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(/images/studio/hero.jpg);
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/studio/hero.jpg);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), image-url("images/studio/hero.jpg");
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), image-url("images/studio/hero.jpg");
   max-width: 1600px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -421,7 +421,7 @@ p {
   outline: none;
 }
 
-.form__input:focus + .svg-img {
+.form__input:focus + .form__svg {
   fill: #2196f3;
 }
 
@@ -462,12 +462,12 @@ p {
 }
 
 .checkbox__input:focus + .checkbox__wrapper > .checkbox__item {
-  background-image: url(/images/studio/checkbox-off.svg);
+  background-image: url("/images/studio/checkbox-off.svg");
 }
 
 .checkbox__input:checked + .checkbox__wrapper > .checkbox__item,
 .checkbox__input:focus:checked + .checkbox__wrapper > .checkbox__item {
-  background-image: url(/images/studio/checkbox-on.svg);
+  background-image: url("/images/studio/checkbox-on.svg");
 }
 
 .checkbox__label {
@@ -504,7 +504,7 @@ p {
   top: 0;
   -webkit-transform: translateY(25%);
           transform: translateY(25%);
-  background-image: url(../../images/studio/checkbox-off.svg);
+  background-image: url(/images/studio/checkbox-off.svg);
 }
 
 .contract {
