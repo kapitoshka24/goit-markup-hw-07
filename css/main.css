@@ -461,6 +461,15 @@ p {
   margin-bottom: 30px;
 }
 
+.checkbox__input:focus + .checkbox__wrapper > .checkbox__item {
+  background-image: url(../../images/studio/checkbox-off.svg);
+}
+
+.checkbox__input:checked + .checkbox__wrapper > .checkbox__item,
+.checkbox__input:focus:checked + .checkbox__wrapper > .checkbox__item {
+  background-image: url(../../images/studio/checkbox-on.svg);
+}
+
 .checkbox__label {
   text-align: center;
   font-family: Roboto;
@@ -481,15 +490,6 @@ p {
   height: 1px;
   overflow: hidden;
   clip: rect(0 0 0 0);
-}
-
-.checkbox__input:focus + .checkbox__wrapper > .checkbox__item {
-  background-image: url(../../images/studio/checkbox-off.svg);
-}
-
-.checkbox__input:checked + .checkbox__wrapper > .checkbox__item,
-.checkbox__input :focus:checked + .checkbox__wrapper > .checkbox__item {
-  background-image: url(../../images/studio/checkbox-on.svg);
 }
 
 .checkbox__wrapper {
