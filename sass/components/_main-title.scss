@@ -7,10 +7,11 @@
   padding-bottom: 200px;
   height: 600px;
   background-image: linear-gradient(
-    to right,
-    getColor("hero-bg"),
-    getColor("hero-bg")
-  );
+      to right,
+      getColor("hero-bg"),
+      getColor("hero-bg")
+    ),
+    url("../images/studio/hero.jpg");
   max-width: 1600px;
   background-size: cover;
   background-repeat: no-repeat;
